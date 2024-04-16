@@ -7,8 +7,8 @@ node_modules/
 *.min*
 !css/bootstrap.min.css
 !css/normalize.min.css
-!js/jquery.counterup.min.js
-!js/jquery.mb.YTPlayer.min.js
-!js/vendor/bootstrap.min.js
-!js/vendor/jquery-1.11.2.min.js
-!js/vendor/modernizr-2.8.3-respond-1.4.2.min.js
+!js/thirdparty/jquery.counterup.min.js
+!js/thirdparty/jquery.mb.YTPlayer.min.js
+!js/thirdparty/bootstrap.min.js
+!js/thirdparty/jquery-1.11.2.min.js
+!js/thirdparty/modernizr-2.8.3-respond-1.4.2.min.js
