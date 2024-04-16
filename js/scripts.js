@@ -187,7 +187,9 @@ $(document).ready(function () {
             start: new Date('Sept 21, 2024 3:00'),
             end: new Date('Sept 21, 2024 00:00'),
             address: 'Winbourne Estate, 1315 Mulgoa Rd, Mulgoa NSW 2745',
-            description: "We can't wait to see you. For any questions, please contact Kyle (0447045607) or Tehani (0466372445)."
+            description: "We can't wait to see you! \
+            \n\nFor any questions, please contact Kyle (0447045607) or Tehani (0466372445).\
+             The website will be updated with more details closer to the date, so keep the link for later (wedding.save-the-date.me)"
         }
     });
 
