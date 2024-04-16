@@ -1,0 +1,374 @@
+<!doctype html>
+<html class="no-js" lang="en"> 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Save the date!</title>
+    <meta name="description" content="Save the date! Kyle & Tehani are getting Married.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="Save the date!">
+    <meta property="og:description" content="Save the date! Kyle & Tehani are getting Married.">
+    <meta property="og:image" content="https://wedding.save-the-date.me/assets/gallery/cover-wide.jpg">
+    <meta property="og:type" content="website">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+
+    <script>
+        // load css files from CDN if local node_modules fail
+        function loadCssFromCDN(css) {
+            // create new link tag
+            const link = document.createElement('link');
+            if (css === 'animate.css') {
+                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css';
+            } else if (css === 'font-awesome.css') {
+                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+            }
+            link.rel = 'stylesheet';
+
+            // add link tag to head section
+            document.getElementsByTagName('head')[0].appendChild(link);
+        }
+
+        // load js files from CDN if local node_modules fail
+        function loadJsFromCDN(js) {
+            if (js === 'waypoints.js') {
+                document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"><\/script>');
+            } else if (js === 'jquery.js') {
+                document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"><\/script>');
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css" onerror="loadCssFromCDN('animate.css')">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" onerror="loadCssFromCDN('font-awesome.css')">
+    <script src="js/thirdparty/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body id="top">
+<section class="hero">
+    <section class="navigation">
+        <header>
+            <div class="header-content">
+                <div class="logo"><a href="#"><img src="assets/logo-long.png" style="width:150px;height:auto;" valign="center" alt="Logo"></a></div>
+                   
+                <div class="header-nav">
+                    <nav>
+                        <ul class="member-actions" style="padding-top: 20px">
+                            <li><a href="#events" class="login">Details</a></li>
+                            <li><a href="#gallery" class="login">Gallery</a></li>
+                            <li><a href="#how-to-get-there" class="login">Venue</a></li>
+                            <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="navicon">
+                    <a class="nav-toggle" style="padding-top: 20px" href="#"><span></span></a>
+                </div>
+            </div>
+        </header>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="hero-content text-center">
+                    <img src="assets/logo-square.png">
+                </div>
+            </div>
+        </div>
+        <div class="row section-padding">
+            <div class="col-md-4 col-md-offset-4 text-center section-padding"><a href="#rsvp" class="btn-white btn-small rsvp-btn">RSVP</a></div>
+        </div>
+    </div>
+    <div class="down-arrow floating-arrow"><a href="#rsvp"><i class="fa fa-angle-down"></i></a></div>
+</section>
+
+<section id="invitation" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>We would like you to be a part of our special day</h3>
+                <p>Join us on the 21<sup>st</sup> of September 2024 to celebrate our lives together</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="events section-padding" id="events">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="header">Event Schedule</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="wp3">
+                    <p><strong>Wedding Ceremony </strong><span class="time">3:00pm - 4:30pm</span></p>
+                    <!-- The ceremony will include some traditional Sri Lankan & Buddhist traditions -->
+                    <p>Please arrive at the location before 3:00pm for a 3:30pm start.  <b>Note:</b> In the event that it is raining on the day, a wet weather option is available at the same location.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="wp4">
+                    <p><strong>Reception </strong><span class="time">4:30pm - 12:00pm</span></p>
+                    <p>Following the ceremony light refreshments will be available on the lawn while the wedding party is taking photos. The reception will then being in the hall at the same location. </p>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row section-padding">
+            <div class="col-md-4 col-md-offset-4 text-center">
+                <a class="btn btn-accent btn-small" data-toggle="modal" data-target="#dc-modal">
+                    <i class="fa fa-barcode"></i>&nbsp;&nbsp;Dress code
+                </a>
+            </div>
+        </div> -->
+    </div>
+
+    <!-- <div id="dc-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                    </button>
+                    <h3 class="text-center section-padding">Saree's and Suits</h3>
+                    <p>
+                        <strong>Ladies</strong>
+                        <br>
+                        Sarees
+                    </p>
+                    <p>
+                        <strong>Gents</strong>
+                        <br>
+                        Suit or blazer and Chinos ...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+</section>
+
+<section id="gallery" class="section-padding">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3 class="header">Gallery</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="assets/gallery/engagement.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="assets/gallery/engagement.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="assets/gallery/new-years.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="assets/gallery/new-years.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="assets/gallery/nick-noras.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="assets/gallery/nick-noras.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="assets/gallery/three-sisters.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="assets/gallery/three-sisters.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="assets/gallery/car-with-arlo.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="assets/gallery/car-with-arlo.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row hidden-lg hidden-md hidden-xs">
+            <div class="col-xs-12 section-border section-padding"></div>
+        </div>
+    </div>
+</section>
+
+<section id="video-bg" class="hidden-sm hidden-xs">
+    <div id="bgndVideo" class="player"
+         data-property="{videoURL:'https://youtu.be/7x6vdHqWBcw',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:108, stopAt:200, opacity:1}">
+    </div>
+    <div id="video-content">
+        <h5>How do I get there?</h5>
+    </div>
+</section>
+
+<section id="how-to-get-there" class="hidden-xl hidden-lg hidden-md">
+    <div class="text-center">
+        <h3>How do I get there?</h3>
+    </div>
+</section>
+
+<section id="map" class="section-padding">
+    <div id="map-canvas"></div>
+    <div id="map-content-wrapper" class="container pointer-events-none">
+        <div class="row">
+            <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6 section-padding">
+                <div class="text-center">
+                    <div id="btn-show-content" class="toggle-map-content pointer-events-auto">
+                        <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Show info
+                    </div>
+                </div>
+                <div id="map-content" class="pointer-events-auto">
+                    <div class="row text-center">
+                        <div class="text-center">
+                            <h5>Winbourne Estate - Edmund Rice Retreat</h5>
+                            <p>1315 Mulgoa Rd, Mulgoa NSW 2745</p>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-6" style="padding: 5px;">
+                            <a class="btn btn-fill btn-small"
+                               href="https://m.uber.com/ul/?action=setPickup&client_id=sH_x3ZyZGD2914XSXsg5dVeIVqZLwn36cLjeT_1f&pickup=my_location&dropoff[formatted_address]=Edmund%20Rice%20Retreat%20and%20Conference%20Centre%2C%20Mulgoa%20Road%2C%20Mulgoa%20NSW%2C%20Australia&dropoff[latitude]=-33.845788&dropoff[longitude]=150.652695"><i
+                                    class="fa fa-taxi"></i>&nbsp;&nbsp;Book Uber</a>
+                        </div>
+                        <div class="col-md-6" style="padding: 5px;">
+                            <a class="btn btn-accent btn-small" id="btn-show-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Show
+                                map</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="rsvp text-center" id="rsvp">
+
+    <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                    </button>
+                    <div class="section-padding">
+                        <h3>Thank you!</h3>
+                        <p>We are glad to see you join us on our big day.</p>
+                        <div id="add-to-cal"></div>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="container">
+        <div class="row  section-padding">
+            <div class="col-md-6 col-md-offset-3">
+                <h3>Please RSVP for each person attending before 1st of July 2024</h3>
+                <form id="rsvp-form" class="rsvp-form"
+                      action=""
+                      method="POST">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-envelope"></i><input type="email" name="email" class=""
+                                                                     placeholder="Your email"
+                                                                     required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-user"></i><input name="name" class=""
+                                                                 placeholder="Your name"
+                                                                 required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-info-circle"></i><input name="dietary" class=""
+                                                                 placeholder="Dietary Requirements i.e. Gluten Free"
+                                                                 required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-key"></i><input type="text" name="invite_code" id="invite_code"
+                                                                class="" min="0"
+                                                                placeholder="Invite code"
+                                                                required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" id="alert-wrapper"></div>
+                    </div>
+                    <button class="btn-fill rsvp-btn">
+                        I'm in!
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="js/thirdparty/jquery-1.11.2.min.js" onerror="loadJsFromCDN('jquery.js')"></script>
+<script src="node_modules/waypoints/lib/jquery.waypoints.min.js" onerror="loadJsFromCDN('waypoints.js')"></script>
+<script src="js/thirdparty/jquery.fancybox.pack.js"></script>
+<script src="js/thirdparty/bootstrap.min.js"></script>
+<script src="js/thirdparty/jquery.flexslider-min.js"></script>
+<script src="js/thirdparty/jquery.mb.YTPlayer.min.js"></script>
+<script src="js/thirdparty/ouical.js"></script>
+<script src="js/scripts.min.js"></script>
+<script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA246Zzr7Ipj57PNQ5-Suk_6ApAvvfxQkU&callback=initMap">
+</script>
+<!-- Google Analytics -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-46465113-4', 'auto');
+    ga('send', 'pageview');
+</script>
+</body>
+</html>
