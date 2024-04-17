@@ -195,7 +195,7 @@ $(document).ready(function () {
         data: {
             title: "Kyle and Tehani's Wedding",
             start: new Date('Sept 21, 2024 15:00'),
-            end: new Date('Sept 22, 2024 00:00'),
+            end: new Date('Sept 21, 2024 23:00'),
             address: 'Winbourne Estate, 1315 Mulgoa Rd, Mulgoa NSW 2745',
             description: "We can't wait to see you! \
             \n\nFor any questions, please contact Kyle (0447045607) or Tehani (0466372445).\
