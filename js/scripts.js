@@ -65,6 +65,16 @@ $(document).ready(function () {
         height: 800
     });
 
+    /***************** Logo fade ******************/
+    window.addEventListener('scroll', function() {
+        var logo = document.querySelector('.logo');
+        if (window.scrollY < 10) {
+            logo.classList.add('hidden');
+        } else {
+            logo.classList.remove('hidden');
+        }
+    });
+
     /***************** Tooltips ******************/
     $('[data-toggle="tooltip"]').tooltip();
 

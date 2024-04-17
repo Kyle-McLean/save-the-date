@@ -524,6 +524,7 @@ Features-stack
     font-family: $accent-font;
     font-weight: 300;
     font-size: 25px;
+    // Change this
     color: #F69D52;
     vertical-align: top;
     margin-left: -8px;
@@ -547,6 +548,17 @@ Features-stack
     left: 50%;
     transform: translateX(-50%);
   }
+}
+
+/* ==========================================================================
+logo fade
+========================================================================== */
+.logo {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.hidden {
+  opacity: 0;
 }
 
 /* ==========================================================================
