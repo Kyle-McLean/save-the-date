@@ -24,7 +24,7 @@ Global Styles
   margin: 0;
 }
 a {
-  color: $accent-color;
+  color: $white-color;
   -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
   -webkit-transition-duration: 200ms;
@@ -259,11 +259,6 @@ Hero
   background-size: cover;
   position: relative;
 
-  /*.rsvp-btn {
-    position: absolute;
-    bottom: 100px;
-    left: 50%;
-  }*/
   .down-arrow a {
     color: $txt-light;
   }
@@ -333,7 +328,7 @@ header {
         padding-right: 25px;
 
         &:hover {
-          color: $accent-color;
+          color: $accent-color-hover;
         }
       }
       &:last-child a {
@@ -349,7 +344,7 @@ header {
         color: $txt-light;
 
         &:hover {
-          color: $accent-color;
+          color: $accent-color-hover;
         }
       }
     }
@@ -525,7 +520,7 @@ Features-stack
     font-weight: 300;
     font-size: 25px;
     // Change this
-    color: #F69D52;
+    color: #a1821d;
     vertical-align: top;
     margin-left: -8px;
     font-style: normal;
